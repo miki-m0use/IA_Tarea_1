@@ -1,1 +1,11 @@
+#archivos temportales de jupyter
 .ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos de instalación o carpetas sueltas de librerías
+install/
+pandas/
+pgmpy/
