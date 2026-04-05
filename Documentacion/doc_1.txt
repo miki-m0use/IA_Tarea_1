@@ -1,0 +1,175 @@
+El dataset escogido sera el de los hongos “mushroom” seleccionado de la página: 
+https://archive.ics.uci.edu/dataset/73/mushroom
+
+el data set cuenta con 8124 filas y 23 columnas, de las cuales se eliminaran algunas,  
+dado que el dataset incluye una información adicional y que en esta se menciona que: 
+
+* Información adicional
+* Este conjunto de datos incluye descripciones de muestras hipotéticas correspondientes a 23 especies de hongos con branquias de 
+* la familia Agaricus y Lepiota (págs. 500-525).  Cada especie se identifica como definitivamente comestible, definitivamente venenosa o 
+* de comestibilidad desconocida y no se recomienda.  Esta última clase se combinó con la venenosa. 
+* La Guía establece claramente que no existe una regla simple para determinar la comestibilidad de un hongo; no existe una regla como 
+* "folletos tres, déjalo ser" para el roble venenoso y la hiedra.
+
+notamos que lo importante de la categorizacion de los hongos es que esta sea definida como “Comestible” o “Venenosos” por lo que iremos eliminando columnas las cuales reconocemos como importantes para reconocer hongos con caracteristicas no importantes para reconocer hongos comestibles o venenosos. (A simple vista).
+
+
+
+
+poisonous
+Objetivo
+Categórico
+Aqui creo que poison=p, e=eat
+no
+
+cap-shape
+Característica
+Categórico
+campana=b,cónica=c,convexa=x,plana=f،pernoctada=k،hundida=s
+no
+
+cap-surface
+Característica
+Categórico
+fibroso=f, ranuras=g, escamoso=y, liso=s
+no
+
+
+cap-color
+Característica
+Binario
+marrón=n,buff=b,canela=c,gris=g,verde=r, rosa=p,púrpura=u,rojo=e,blanco=w,amarillo=y
+no
+
+
+bruises
+Característica
+Categórico
+moretones=t,no=f
+no
+
+
+odor
+Característica
+Categórico
+almendra=a,anís=l,creosota=c,pescado=y,sucio=f،mohoso=m,ninguno=n,picante=p,picante=s
+no
+
+
+gill-attachment
+Característica
+Categórico
+adjunto=a,descendente=d,libre=f,con muescas=n
+no
+
+gill-spacing
+Característica
+Categórico
+cerrar=c,atestado=w,distante=d
+no
+
+
+Gill-size
+Característica
+Categórico
+ancho=b،estrecho=n
+no
+
+
+gill color
+Característica
+Categórico
+negro=k،marrón=n،buff=b،chocolate=h،gris=g،verde=r،naranja=o،rosa=p،púrpura=u،rojo=e،blanco=w،amarillo=y
+no
+
+
+
+stalk-shape
+Feature
+Categorical
+enlarging=e,tapering=t
+no
+
+stalk-root
+Feature
+Categorical
+bulbous=b,club=c,cup=u,equal=e, rhizomorphs=z,rooted=r,missing=?
+yes
+
+
+stalk-surface-above-ring
+Feature
+Categorical
+fibrous=f,scaly=y,silky=k,smooth=s
+no
+
+
+stalk-surface-below-ring
+Feature
+Categorical
+fibrous=f,scaly=y,silky=k,smooth=s
+no
+
+
+stalk-color-above-ring
+Feature
+Categorical
+brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y
+no
+
+
+stalk-color-below-ring
+Feature
+Categorical
+brown=n,buff=b,cinnamon=c,gray=g,orange=o, pink=p,red=e,white=w,yellow=y
+no
+
+
+veil-type
+Feature
+Binary
+partial=p,universal=u
+no
+
+
+veil-color
+Feature
+Categorical
+brown=n,orange=o,white=w,yellow=y
+no
+
+
+ring-number
+Feature
+Categorical
+none=n,one=o,two=t
+no
+
+
+ring-type
+Feature
+Categorical
+cobwebby=c,evanescent=e,flaring=f,large=l, none=n,pendant=p,sheathing=s,zone=z
+no
+
+
+spore-print-color
+Feature
+Categorical
+black=k,brown=n,buff=b,chocolate=h,green=r, orange=o,purple=u,white=w,yellow=y
+no
+
+
+population
+Feature
+Categorical
+abundant=a,clustered=c,numerous=n, scattered=s,several=v,solitary=y
+no
+
+
+habitat
+Feature
+Categorical
+grasses=g,leaves=l,meadows=m,paths=p, urban=u,waste=w,woods=d
+no
+
