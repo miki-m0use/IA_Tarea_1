@@ -1,0 +1,26 @@
+Arcos encontrados HC original: 
+[('poisonuos', 'odor'), ('poisonuos', 'cap-shape'), ('odor', 'stalk-root'), ('odor', 'ring-type'), ('odor', 'cap-color'), ('odor', 'stalk-shape'), ('stalk-shape', 'stalk-root'), ('stalk-shape', 'cap-color'), ('stalk-root', 'cap-shape'), ('ring-type', 'stalk-shape'), ('ring-type', 'stalk-root')]
+
+
+Arcos encontrados por E_S:
+[('odor', 'cap-color'), ('odor', 'poisonuos'), ('odor', 'stalk-root'), ('poisonuos', 'cap-color'), ('poisonuos', 'stalk-root'), ('stalk-root', 'cap-color'), ('veil-type', 'poisonuos')]
+
+
+Arcos encontrados HC 10: 
+[('poisonuos', 'odor'), ('poisonuos', 'cap-shape'), ('odor', 'stalk-root'), ('odor', 'ring-type'), ('odor', 'cap-color'), ('odor', 'stalk-shape'), ('stalk-shape', 'stalk-root'), ('stalk-shape', 'cap-color'), ('stalk-root', 'cap-shape'), ('ring-type', 'stalk-shape'), ('ring-type', 'stalk-root')]
+Arcos encontrados HC 20: 
+[('poisonuos', 'cap-shape'), ('odor', 'poisonuos'), ('odor', 'ring-type'), ('odor', 'cap-color'), ('stalk-shape', 'odor'), ('stalk-shape', 'cap-color'), ('stalk-shape', 'stalk-root'), ('stalk-shape', 'ring-type'), ('stalk-shape', 'poisonuos'), ('stalk-root', 'odor'), ('stalk-root', 'ring-type'), ('stalk-root', 'cap-shape')]
+Arcos encontrados HC 40: 
+[('cap-shape', 'stalk-root'), ('cap-shape', 'stalk-shape'), ('odor', 'poisonuos'), ('odor', 'ring-type'), ('odor', 'cap-color'), ('stalk-shape', 'odor'), ('stalk-shape', 'cap-color'), ('stalk-shape', 'ring-type'), ('stalk-shape', 'poisonuos'), ('stalk-root', 'odor'), ('stalk-root', 'ring-type'), ('stalk-root', 'stalk-shape')]
+
+
+Arcos encontrados por E_S 10%:
+[('odor', 'cap-color'), ('odor', 'poisonuos'), ('odor', 'stalk-root'), ('poisonuos', 'cap-color'), ('poisonuos', 'stalk-root'), ('stalk-root', 'cap-color')]
+
+
+Arcos encontrados por E_S 20%:
+[('odor', 'cap-color'), ('odor', 'poisonuos'), ('odor', 'stalk-root'), ('poisonuos', 'cap-color'), ('poisonuos', 'stalk-root'), ('stalk-root', 'cap-color')]
+
+
+Arcos encontrados por E_S 40%:
+[('odor', 'cap-color'), ('odor', 'poisonuos'), ('odor', 'stalk-root'), ('poisonuos', 'cap-color'), ('poisonuos', 'stalk-root'), ('stalk-root', 'cap-color')]
